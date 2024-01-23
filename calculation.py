@@ -109,3 +109,4 @@ def logarithm(x: float, base: float = 10) -> float:
     if x <= 0 or base <= 0 or base == 1:
         raise ValueError("Invalid input for logarithm calculation")
     return math.log(x, base)
+
